@@ -7,7 +7,7 @@ import './Layout.css'
 
 const Layout = ({ children }) => {
 	return (
-		<Box width='400px' m='auto' sx={{ width: { xl: '1488px' } }}>
+		<Box width='400px' sx={{ width: { xl: '1488px' } }} m='auto'>
 			<Navbar />
 			{children}
 			<Footer />
