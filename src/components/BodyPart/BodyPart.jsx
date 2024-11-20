@@ -2,8 +2,6 @@ import { Stack, Typography } from '@mui/material'
 import React from 'react'
 import Icon from './../../assets/icons/gym.png'
 
-import './BodyPart.css'
-
 const BodyPart = ({ item, setBodyPart, bodyPart }) => (
 	<Stack
 		type='button'
